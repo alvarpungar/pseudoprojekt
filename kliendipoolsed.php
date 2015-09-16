@@ -1,7 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Alvar
- * Date: 16.09.2015
- * Time: 11:28
- */
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pungar</title>
+</head>
+<body>
+
+</body>
+</html>
