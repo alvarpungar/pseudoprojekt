@@ -11,6 +11,8 @@
             alert("Tere maailm!");
         }
     </script>
-    <a href="http://www.khk.ee" onClick="alert('Tere maailm!')">Tere maailm</a>
+    <a href="http://www.khk.ee" onClick="alert('Tere maailm!')">Tere maailm</a><br>
+    <a href="http://www.khk.ee" onClick="alert('Jääme siia!') ;return false">Jääme siia</a>
+
 </body>
 </html>
