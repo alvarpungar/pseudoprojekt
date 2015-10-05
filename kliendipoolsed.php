@@ -25,5 +25,25 @@
             $(this).attr("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7juIqQj7w7nZpj4FCqMrmw4tGPXnUzRL3JQGZ7Xcu9r-KClrA9QHE8KqZ")
         })
     </script>
+    <button id="btn1">RED!</button>
+    <button id="btn2">GREEN!</button>
+    <button id="btn3">BLUE!</button>
+    <script>
+        $(document).ready(function () {
+            $('#btn1').click(function () {
+                $('body').css('background', '#ff0000');
+            });
+        });
+        $(document).ready(function () {
+            $('#btn2').click(function () {
+                $('body').css('background', '#00ff00');
+            });
+        });
+        $(document).ready(function () {
+            $('#btn3').click(function () {
+                $('body').css('background', '#0000ff');
+            });
+        });
+    </script>
 </body>
 </html>
