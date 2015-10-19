@@ -36,7 +36,7 @@
         });
         $(document).ready(function () {
             $('#btn2').click(function () {
-                $('body').css('backgroundColor', $('#btn2').text());
+                $('body').css('backgroundColor',W $('#btn2').text());
             });
         });
         $(document).ready(function () {
@@ -45,5 +45,11 @@
             });
         });
     </script>
+    <script>
+        $(document).bind("contextmenu", function (e) {
+            e.preventDefault();
+        });
+    </script>
+
 </body>
 </html>
