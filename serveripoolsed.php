@@ -1,4 +1,6 @@
 <?php
+$eesnimi = "Alvar";
+$perenimi = "Pungar";
 
-print "Tere maailm!";
+print $eesnimi . ' ' . $perenimi;
 ?>
