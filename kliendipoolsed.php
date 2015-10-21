@@ -47,6 +47,8 @@
     });
 </script>
 <button id=rclick>Luba parem klõps</button>
+<button type="submit" id="piltKaob">Peida pilt</button>
+<br>
 <script>
 </script>
 <script>
@@ -59,6 +61,12 @@
 
     $("#rclick").click(function () {
         $("html").off("contextmenu");
+    });
+
+    $(document).ready(function () {
+        $("#piltKaob").click(function () {
+            $(".kass2").toggle();
+        });
     });
 </script>
 
