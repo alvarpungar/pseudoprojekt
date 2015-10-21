@@ -1,6 +1,6 @@
 <?php
 $eesnimi = "Alvar";
 $perenimi = "Pungar";
-
-print $eesnimi . ' ' . $perenimi;
+$vanus = 24;
+print $eesnimi . " " . $perenimi . " " . ($vanus);
 ?>
