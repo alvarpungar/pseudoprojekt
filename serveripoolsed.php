@@ -1,7 +1,10 @@
 <?php
-$eesnimi = "Alvar";
-$perenimi = "Pungar";
-$vanus = 24;
+
+$isik = array(
+    "eesnimi" => "Alvar",
+    "perenimi" => "Pungar",
+    "vanus" => "24",
+);
 $eesnimi_algab_vokaaliga = true;
-print  "$eesnimi $perenimi ($vanus)";
+print  "<p>" . $isik['eesnimi'] . " " . $isik['perenimi'] . " (" . $isik['vanus'] . ")</p>";
 ?>
