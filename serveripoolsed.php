@@ -22,4 +22,6 @@ $float_sum = $floating1 + $floating2;
 
 
 echo "<p>" . $float_sum . "</p>";
+
+echo $_GET['koer'];
 ?>
