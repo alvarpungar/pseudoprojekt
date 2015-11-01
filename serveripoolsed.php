@@ -16,10 +16,10 @@ if (in_array(substr($person->eesnimi, 0, 1), $vowels)) {
     $eesnimi_algab_vokaaliga = false;
 }
 
-if ($eesnimi_algab_vokaaliga) {
-    echo "<p>Nimi algab vokaaliga</p>";
-}
+$floating1 = 1.23;
+$floating2 = 2.34;
+$float_sum = $floating1 + $floating2;
 
 
-print  "<p>" . $person->eesnimi . " " . $person->perenimi . " (" . $person->vanus . ") " . $person->sugu . "</p>";
+echo "<p>" . $float_sum . "</p>";
 ?>
