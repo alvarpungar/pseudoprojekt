@@ -6,9 +6,9 @@
 </head>
 <body>
 <?php
-if (isset($_GET['page'])) {
-    require "$_GET[page].php";
-}
+$page = (isset($_GET['page'])) ? $_GET['page'] : 'home';
+
+require "$page.php";
 ?>
 </body>
 </html>
